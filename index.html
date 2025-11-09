@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jaxon — Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <style>
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+      }
+
+      .nav-links {
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero .subtitle {
+        font-size: 1rem;
+      }
+
+      .section {
+        padding: 4rem 1.5rem;
+      }
+
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .profile-pic {
+        margin: 0 auto;
+      }
+
+      .project-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .socials {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <!-- EDITABLE: Change your name or logo here -->
+    <div class="logo">Jaxon<span class="accent">Dev</span></div>
+    <ul class="nav-links">
+      <!-- You can add/remove navigation links here -->
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li>
+        <!-- This is the theme toggle button -->
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+          <span class="icon"></span>
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <!-- EDITABLE: Change your name here -->
+      <h1>Hello, I'm <span class="accent">Jaxon</span></h1>
+      <!-- EDITABLE: Change your title/tagline here -->
+      <p class="subtitle">Java Developer • Game Designer • Problem Solver</p>
+      <!-- This button links to the projects section -->
+      <a href="#projects" class="btn">See My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <div class="about-grid">
+      <!-- EDITABLE: Replace with your profile picture. Recommended size: 220x220 pixels -->
+      <img src="assets/profile.jpg" alt="Your Name" class="profile-pic">
+      <!-- EDITABLE: Write a short bio about yourself -->
+      <p>I’m a developer who sees code as both an art and a puzzle. I specialize in Java and love experimenting with 2D isometric game design — where every pixel and algorithm brings a world to life.
+
+When I’m not coding, I’m sketching new ideas, refining mechanics, and studying how small details can transform gameplay. My goal is to craft experiences that feel simple, smart, and a little bit magical.
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <!-- EDITABLE: Replace with your project image. Recommended aspect ratio: 16:9 -->
+        <img src="assets/project1.jpg" alt="Project 1">
+        <!-- EDITABLE: Change project title -->
+        <h3>Isometric Car Racing Game</h3>
+        <!-- EDITABLE: Change project description -->
+        <p>Java-based game using 2D isometric projection and custom physics.</p>
+      </div>
+      <div class="card">
+        <img src="assets/project2.jpg" alt="Project 2">
+        <h3>Data Structure Visualizer</h3>
+        <p>Interactive tool for visualizing trees, graphs, and sorting algorithms.</p>
+      </div>
+      <div class="card">
+        <!-- You can add more project cards by copying the structure above -->
+        <img src="assets/projectd.png" alt="Project 3">
+        <h3>Portfolio Template (This One!)</h3>
+        <p>A fully customizable developer portfolio template built with clean design principles.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <p>Let’s collaborate or chat about your next project.</p>
+    <div class="socials">
+      <!-- EDITABLE: Replace with your social/contact links -->
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      <a href="mailto:youremail@gmail.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    <!-- EDITABLE: Change the footer text -->
+    © 2025 Jaxon. Designed with ❤️ and Java.
+  </footer>
+</body>
+</html>
