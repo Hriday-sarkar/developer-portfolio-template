@@ -1,11 +1,10 @@
 ==================================================================
-  DEVELOPER PORTFOLIO TEMPLATE by Jaxon (v1.0)
+  DEVELOPER PORTFOLIO TEMPLATE by Hriday (v1.0)
 ==================================================================
 
 Thank you for choosing this Developer Portfolio Template! This guide will walk you through everything you need to know to customize it and make it your own.
 
-
-✨ FEATURES
+--> FEATURES
 ------------------------------------------------------------------
 - Clean, modern, and minimal design
 - Fully responsive layout for all devices
@@ -14,14 +13,14 @@ Thank you for choosing this Developer Portfolio Template! This guide will walk y
 - Easy to customize content, colors, and fonts
 
 
-🚀 GETTING STARTED
+--> GETTING STARTED
 ------------------------------------------------------------------
 1.  **Extract the Files**: Unzip the downloaded file to a folder on your computer.
 2.  **Open `index.html`**: Open the `index.html` file in a web browser (like Chrome or Firefox) to see the template live.
 3.  **Open in a Code Editor**: Open the project folder in a code editor to start making changes. We recommend Visual Studio Code, which is free and powerful.
 
 
-🎨 CUSTOMIZATION GUIDE
+--> CUSTOMIZATION GUIDE
 ------------------------------------------------------------------
 
 ### 1. Editing Content (in `index.html`)
@@ -71,7 +70,7 @@ Look for the `CUSTOMIZATION: FONT` section.
 5.  Update the `font-family` property in the `body` style rule with the name of your new font.
 
 
-🌐 DEPLOYING YOUR PORTFOLIO
+--> DEPLOYING YOUR PORTFOLIO
 ------------------------------------------------------------------
 Once you're done customizing, you can host your portfolio online for free using services like:
 -   **GitHub Pages**: Push your code to a GitHub repository and enable Pages in the settings.
@@ -79,10 +78,11 @@ Once you're done customizing, you can host your portfolio online for free using 
 -   **Vercel**: Connect your Git repository for seamless deployments.
 
 
-💬 SUPPORT
+--> SUPPORT
 ------------------------------------------------------------------
 If you have any questions or run into any issues, please don't hesitate to contact me via the platform where you purchased this template.
 
 Thank you and happy coding!
 
-Created by Jaxon © 2025
+Created by Hriday © 2025
+
